@@ -4,7 +4,7 @@
 #sudo apt install -y python3-mysqldb 
 
 
-mysql -u bl -p BLcybersec << EOF
+mysql -u [bl] -p [blCybersec] << EOF
 GRANT ALL PRIVILEGES ON *.* TO bl@localhost IDENTIFIED BY 'BLcybersec';
 GRANT ALL PRIVILEGES ON *.* TO phpmyadmin@localhost IDENTIFIED BY 'BLcybersec'; 
 CREATE USER 'pma'@'localhost' IDENTIFIED VIA mysql_native_password USING 'pmapass';
