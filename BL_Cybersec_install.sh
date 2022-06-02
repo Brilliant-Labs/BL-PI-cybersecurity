@@ -1,10 +1,10 @@
 #!/bin/bash
 
 sleep 5s
-echo -n "********************"
-echo -n "BL_Cybersec_update  "
-echo -n "download            "
-echo -n "********************"
+echo "********************"
+echo "BL_Cybersec_update  "
+echo "download            "
+echo "********************"
 sudo rm BL_Cybersec_update_1.sh
 sudo rm BL_Cybersec_update_2.sh
 sudo rm BL_Cybersec_update_3.sh
