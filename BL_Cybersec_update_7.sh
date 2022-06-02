@@ -1,20 +1,19 @@
 #!/bin/bash
 
-sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
-sudo apt-key add mosquitto-repo.gpg.key
-cd /etc/apt/sources.list.d/
-sudo wget http://repo.mosquitto.org/debian/mosquitto-stretch.list
-sudo apt -y install mosquitto mosquitto-clients
-sudo apt -y install python-pip
-sudo service mosquitto start
+
+#copy IDE package in /git/microbitvnc
+
+npm install -g http-server
 
 
-sudo echo "pid_file /var/run/mosquitto/mosquitto.pid">> /etc/mosquitto/mosquitto.conf
-sudo echo "persistence true">> /etc/mosquitto/mosquitto.conf
-sudo echo "persistence_location /var/lib/mosquitto/">> /etc/mosquitto/mosquitto.conf
-sudo echo "log_dest file /var/log/mosquitto/mosquitto.log">> /etc/mosquitto/mosquitto.conf
-sudo echo "include_dir /etc/mosquitto/conf.d">> /etc/mosquitto/mosquitto.conf
-sudo echo "allow_anonymous true">> /etc/mosquitto/mosquitto.conf
-sudo echo "port 1883">> /etc/mosquitto/mosquitto.conf
+(crontab -l; echo "@reboot http-server -c-1 /git/microbit/packaged")|awk '!x[$0]++'|crontab -
+(crontab -l; echo "*/5 * * * * http-server -c-1 /git/microbit/packaged")|awk '!x[$0]++'|crontab -
+
+#crontab -l > crontab_new 
+#echo "@reboot http-server -c-1 /git/microbit/packaged" >> crontab_new
+#echo "*/5 * * * * http-server -c-1 /git/microbit/packaged" >> crontab_new
+#crontab crontab_new
+#rm crontab_new
+
 
 

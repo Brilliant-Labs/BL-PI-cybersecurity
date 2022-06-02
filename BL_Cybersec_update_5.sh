@@ -1,13 +1,16 @@
 #!/bin/bash
 
-sudo apt install -y mariadb-server-10.0
-sudo apt install -y python3-mysqldb 
-#rasp
+sudo apt install xscreensaver-data-extra
+sudo apt install xscreensaver-gl
+sudo apt install xscreensaver-gl-extra
 
+sudo pip install --upgrade pip
+sudo pip install paho-mqtt
+sudo pip install mysql-connector-python
+sudo pip install requests
+sudo pip install pyserial
 
-#*******  execute manually
-#sudo mysql -u root -p
-#GRANT ALL PRIVILEGES ON *.* TO bl@localhost IDENTIFIED BY 'BLcybersec';
-#GRANT ALL PRIVILEGES ON *.* TO phpmyadmin@localhost IDENTIFIED BY 'BLcybersec'; 
-#CREATE USER 'pma'@'localhost' IDENTIFIED VIA mysql_native_password USING 'pmapass';
-#GRANT SELECT, INSERT, UPDATE, DELETE ON `<pma_db>`.* TO 'pma'@'localhost';
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+sudo systemctl enable nodered
+node-red-start
+node-red-restart
