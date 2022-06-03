@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt install -y mariadb-server-10.0
-sudo apt install -y python3-mysqldb 
+
 
 #*******  execute manually
 #sudo mysql_secure_installation
