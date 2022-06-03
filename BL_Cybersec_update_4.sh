@@ -12,6 +12,7 @@ sudo pip install mysql-connector-python
 sudo pip install requests
 sudo pip install pyserial
 
+sudo rm /etc/mosquitto/mosquitto.conf
 sudo echo "pid_file /var/run/mosquitto/mosquitto.pid">> /etc/mosquitto/mosquitto.conf
 sudo echo "persistence true">> /etc/mosquitto/mosquitto.conf
 sudo echo "persistence_location /var/lib/mosquitto/">> /etc/mosquitto/mosquitto.conf
@@ -20,5 +21,6 @@ sudo echo "include_dir /etc/mosquitto/conf.d">> /etc/mosquitto/mosquitto.conf
 sudo echo "allow_anonymous true">> /etc/mosquitto/mosquitto.conf
 sudo echo "port 1883">> /etc/mosquitto/mosquitto.conf
 
+sudo service mosquitto stop
 sudo service mosquitto start
 
