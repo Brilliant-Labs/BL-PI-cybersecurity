@@ -6,8 +6,11 @@ cd /etc/apt/sources.list.d/
 sudo wget http://repo.mosquitto.org/debian/mosquitto-stretch.list
 sudo apt -y install mosquitto mosquitto-clients
 sudo apt -y install python-pip
-sudo service mosquitto start
-
+sudo pip install --upgrade pip
+sudo pip install paho-mqtt
+sudo pip install mysql-connector-python
+sudo pip install requests
+sudo pip install pyserial
 
 sudo echo "pid_file /var/run/mosquitto/mosquitto.pid">> /etc/mosquitto/mosquitto.conf
 sudo echo "persistence true">> /etc/mosquitto/mosquitto.conf
@@ -16,3 +19,6 @@ sudo echo "log_dest file /var/log/mosquitto/mosquitto.log">> /etc/mosquitto/mosq
 sudo echo "include_dir /etc/mosquitto/conf.d">> /etc/mosquitto/mosquitto.conf
 sudo echo "allow_anonymous true">> /etc/mosquitto/mosquitto.conf
 sudo echo "port 1883">> /etc/mosquitto/mosquitto.conf
+
+sudo service mosquitto start
+
