@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install -y php php-mbstring php-zip php-gd php-json php-curl php-gettext
+sudo apt install -y php php-mbstring php-zip php-gd php-json php-curl
 sudo apt install -y phpmyadmin
 sudo ln -s /usr/share/phpmyadmin /var/www/html
 
