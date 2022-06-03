@@ -5,7 +5,7 @@ sudo apt-key add mosquitto-repo.gpg.key
 cd /etc/apt/sources.list.d/
 sudo wget http://repo.mosquitto.org/debian/mosquitto-stretch.list
 sudo apt -y install mosquitto mosquitto-clients
-sudo apt -y install python-pip
+sudo apt -y install python3-pip
 sudo pip install --upgrade pip
 sudo pip install paho-mqtt
 sudo pip install mysql-connector-python
