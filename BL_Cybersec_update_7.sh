@@ -1,19 +1,10 @@
 #!/bin/bash
 
+sudo apt install -y php php-mbstring php-zip php-gd php-json php-curl php-gettext
+sudo apt install -y phpmyadmin
+sudo ln -s /usr/share/phpmyadmin /var/www/html
 
-#copy IDE package in /git/microbitvnc
-
-npm install -g http-server
-
-
-(crontab -l; echo "@reboot http-server -c-1 /git/microbit/packaged")|awk '!x[$0]++'|crontab -
-(crontab -l; echo "*/5 * * * * http-server -c-1 /git/microbit/packaged")|awk '!x[$0]++'|crontab -
-
-#crontab -l > crontab_new 
-#echo "@reboot http-server -c-1 /git/microbit/packaged" >> crontab_new
-#echo "*/5 * * * * http-server -c-1 /git/microbit/packaged" >> crontab_new
-#crontab crontab_new
-#rm crontab_new
+sudo echo "Include /etc/phpmyadmin/apache.conf" >> /etc/apache2/apache2.conf
 
 
-
+sudo /etc/init.d/apache2 restart
