@@ -22,5 +22,5 @@ sudo echo "allow_anonymous true">> /etc/mosquitto/mosquitto.conf
 sudo echo "port 1883">> /etc/mosquitto/mosquitto.conf
 
 sudo service mosquitto stop
-sudo service mosquitto start
+sudo service mosquitto restart
 
