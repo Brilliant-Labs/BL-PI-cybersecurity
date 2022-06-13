@@ -32,10 +32,3 @@ sudo chmod +x BL_Cybersec_update_6.sh
 sudo chmod +x BL_Cybersec_update_7.sh
 sudo chmod +x BL_Cybersec_update_8.sh
 sudo chmod +x BL_Cybersec_update_9.sh
-
-
-# sh BL_Cybersec_update_1.sh
-# sh BL_Cybersec_update_2.sh
-# sh BL_Cybersec_update_3.sh
-# sh BL_Cybersec_update_4.sh
-# sh BL_Cybersec_db.sh

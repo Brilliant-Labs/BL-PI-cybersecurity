@@ -1,0 +1,2963 @@
+[
+    {
+        "id": "3688cff602168f40",
+        "type": "tab",
+        "label": "bBoard1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "aeaca841a3978a1f",
+        "type": "tab",
+        "label": "Welcome to Hackerville",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "346d8fb50e1fbf61",
+        "type": "tab",
+        "label": "bBoard2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "065051325d4230dc",
+        "type": "tab",
+        "label": "bBoard3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f02f09631b73c93b",
+        "type": "tab",
+        "label": "bBoard4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a761cbb68b049612",
+        "type": "tab",
+        "label": "Dashboard 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e1fde12c.9db918",
+        "type": "tab",
+        "label": "UI",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3cb1d655da0d0356",
+        "type": "tab",
+        "label": "Web",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "adb7cb62d1d6ed05",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.24",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5fcb0776.c461c8",
+        "type": "ui_group",
+        "name": "light",
+        "tab": "ab19c754543c9463",
+        "order": 1,
+        "disp": true,
+        "width": "9",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fc657953.1b728",
+        "type": "ui_group",
+        "name": "admin1",
+        "tab": "7dfaf7ff.8d5ae",
+        "order": 3,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "7f74a584.dea814",
+        "type": "ui_group",
+        "name": "admin2",
+        "tab": "7dfaf7ff.8d5ae",
+        "order": 4,
+        "disp": true,
+        "width": "21",
+        "collapse": false
+    },
+    {
+        "id": "f033628c.9c7ce",
+        "type": "ui_group",
+        "name": "Change Tabs",
+        "tab": "7dfaf7ff.8d5ae",
+        "order": 2,
+        "disp": true,
+        "width": "8",
+        "collapse": false
+    },
+    {
+        "id": "7dfaf7ff.8d5ae",
+        "type": "ui_tab",
+        "name": "bBoard2",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8059ff1fe5a23dde",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "4267eadec6db36f9",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "localhost",
+        "port": "3306",
+        "db": "bBoard",
+        "tz": "",
+        "charset": "UTF8",
+        "info": "SELECT value FROM `sensors` WHERE name=\"temp\" ORDER BY ID DESC LIMIT 1"
+    },
+    {
+        "id": "267de38b857a4381",
+        "type": "ui_group",
+        "name": "Home",
+        "tab": "ff642d43c015512a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ff642d43c015512a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "cc942a5b514c0125",
+        "type": "ui_group",
+        "name": "Temp",
+        "tab": "7dfaf7ff.8d5ae",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5536fe0b7770309b",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "7dfaf7ff.8d5ae",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4153060270b56870",
+        "type": "ui_tab",
+        "name": "bBoard1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "453c50efb350382f",
+        "type": "ui_group",
+        "name": "Chart",
+        "tab": "7dfaf7ff.8d5ae",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "828de556f277e393",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "04b1683a581a6861",
+        "type": "ui_group",
+        "name": "Buttons",
+        "tab": "7dfaf7ff.8d5ae",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ff45f845ed0e64c4",
+        "type": "ui_group",
+        "name": "Light",
+        "tab": "7dfaf7ff.8d5ae",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d227f5cf8a185dc5",
+        "type": "ui_group",
+        "name": "Temp",
+        "tab": "4153060270b56870",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1b0282460c5c55f9",
+        "type": "ui_group",
+        "name": "Light",
+        "tab": "cee67a735f8ca03d",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d582208e623b0b97",
+        "type": "ui_group",
+        "name": "Chart",
+        "tab": "4153060270b56870",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6e283038e663e667",
+        "type": "ui_group",
+        "name": "Button",
+        "tab": "4153060270b56870",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b72002b4d58a356e",
+        "type": "ui_group",
+        "name": "Table",
+        "tab": "828de556f277e393",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e836151d3c0e0088",
+        "type": "ui_group",
+        "name": "RPI Temp",
+        "tab": "828de556f277e393",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cee67a735f8ca03d",
+        "type": "ui_tab",
+        "name": "bBoard3",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "da63b1ff5df4e38b",
+        "type": "ui_group",
+        "name": "Temp",
+        "tab": "cee67a735f8ca03d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2eae4923caa34c0f",
+        "type": "ui_group",
+        "name": "Button",
+        "tab": "cee67a735f8ca03d",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "98fbd633f60c6b90",
+        "type": "ui_group",
+        "name": "Light",
+        "tab": "4153060270b56870",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c8e4f7024208150b",
+        "type": "ui_group",
+        "name": "PING",
+        "tab": "4153060270b56870",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9dc4b090ed3e1a61",
+        "type": "ui_group",
+        "name": "Ping",
+        "tab": "ab19c754543c9463",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab19c754543c9463",
+        "type": "ui_tab",
+        "name": "smartcity1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "72d9881bb701ac45",
+        "type": "ui_group",
+        "name": "temp",
+        "tab": "ab19c754543c9463",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "58e87a4fe8f69a4f",
+        "type": "mqtt in",
+        "z": "3688cff602168f40",
+        "name": "",
+        "topic": "bBoard1/temp",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "5cddb9c6f128d3e0",
+                "214c729ce85974bd"
+            ]
+        ]
+    },
+    {
+        "id": "19c868cf909c6448",
+        "type": "mysql",
+        "z": "3688cff602168f40",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 500,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5cddb9c6f128d3e0",
+        "type": "function",
+        "z": "3688cff602168f40",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard1`(`name`, `value`) VALUES ('temp',\"+msg.payload+\");\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "19c868cf909c6448"
+            ]
+        ]
+    },
+    {
+        "id": "f9b999967901e6d3",
+        "type": "mqtt in",
+        "z": "3688cff602168f40",
+        "name": "",
+        "topic": "bBoard1/light",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "e19bd01e0c822c4d"
+            ]
+        ]
+    },
+    {
+        "id": "eee1ab39425f621a",
+        "type": "mysql",
+        "z": "3688cff602168f40",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 500,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e19bd01e0c822c4d",
+        "type": "function",
+        "z": "3688cff602168f40",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard1`(`name`, `value`) VALUES ('light',\"+msg.payload+\");\"\nif (msg.payload == 22) \n    {msg.light = \"red\"}\nelse if (msg.payload == 11)\n    {msg.light = \"blue\"}\nelse\n    {msg.light = \"green\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 340,
+        "wires": [
+            [
+                "eee1ab39425f621a",
+                "c5067384f14e0014"
+            ]
+        ]
+    },
+    {
+        "id": "ea49178421a18bcb",
+        "type": "mqtt in",
+        "z": "3688cff602168f40",
+        "name": "",
+        "topic": "bBoard1/alarm",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "7662e292fe308647"
+            ]
+        ]
+    },
+    {
+        "id": "cad14e883608e75b",
+        "type": "mysql",
+        "z": "3688cff602168f40",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 500,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7662e292fe308647",
+        "type": "function",
+        "z": "3688cff602168f40",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard1`(`name`, `value`) VALUES ('alarm',\"+msg.payload+\");\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 420,
+        "wires": [
+            [
+                "cad14e883608e75b"
+            ]
+        ]
+    },
+    {
+        "id": "214c729ce85974bd",
+        "type": "ui_gauge",
+        "z": "3688cff602168f40",
+        "name": "b.Board Temp",
+        "group": "d227f5cf8a185dc5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "b.Board Temp",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "40",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 380,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "5b2899cca9e601b6",
+        "type": "change",
+        "z": "3688cff602168f40",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 540,
+        "wires": [
+            [
+                "02ddd7fe8fece21e"
+            ]
+        ]
+    },
+    {
+        "id": "294f97085868567d",
+        "type": "mysql",
+        "z": "3688cff602168f40",
+        "mydb": "4267eadec6db36f9",
+        "name": "bBoard",
+        "x": 500,
+        "y": 540,
+        "wires": [
+            [
+                "5b2899cca9e601b6"
+            ]
+        ],
+        "info": "SELECT value FROM `sensors` WHERE name=\"temp\" ORDER BY ID DESC LIMIT 1"
+    },
+    {
+        "id": "adaa3db29e1cc084",
+        "type": "function",
+        "z": "3688cff602168f40",
+        "name": "",
+        "func": "msg.topic = \"SELECT value FROM `bBoard1` WHERE `name`='light' ORDER BY ID ASC LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 540,
+        "wires": [
+            [
+                "294f97085868567d"
+            ]
+        ]
+    },
+    {
+        "id": "c5067384f14e0014",
+        "type": "ui_ui-light",
+        "z": "3688cff602168f40",
+        "action": "Set",
+        "actionType": "str",
+        "write": "light",
+        "writeType": "msg",
+        "name": "Light",
+        "group": "98fbd633f60c6b90",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "x": 650,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59a257cb8c16acd0",
+        "type": "ui_button",
+        "z": "3688cff602168f40",
+        "name": "",
+        "group": "6e283038e663e667",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Green",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 640,
+        "wires": [
+            [
+                "95e05adffa4ff237"
+            ]
+        ]
+    },
+    {
+        "id": "95e05adffa4ff237",
+        "type": "mqtt out",
+        "z": "3688cff602168f40",
+        "name": "bBoard1/light",
+        "topic": "bBoard1/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "adb7cb62d1d6ed05",
+        "x": 540,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "1d55733712b4fba4",
+        "type": "ui_button",
+        "z": "3688cff602168f40",
+        "name": "",
+        "group": "6e283038e663e667",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Red",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "22",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 700,
+        "wires": [
+            [
+                "95e05adffa4ff237"
+            ]
+        ]
+    },
+    {
+        "id": "c47a0c2c3188ac3a",
+        "type": "ui_button",
+        "z": "3688cff602168f40",
+        "name": "",
+        "group": "6e283038e663e667",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Blue",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "11",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 760,
+        "wires": [
+            [
+                "95e05adffa4ff237"
+            ]
+        ]
+    },
+    {
+        "id": "215cc716932bb050",
+        "type": "inject",
+        "z": "3688cff602168f40",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 540,
+        "wires": [
+            [
+                "adaa3db29e1cc084"
+            ]
+        ]
+    },
+    {
+        "id": "02ddd7fe8fece21e",
+        "type": "ui_chart",
+        "z": "3688cff602168f40",
+        "name": "",
+        "group": "d582208e623b0b97",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "15",
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 850,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fc07d006e167f173",
+        "type": "ui_button",
+        "z": "3688cff602168f40",
+        "name": "",
+        "group": "6e283038e663e667",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "PING",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "11",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "d1666dfd9aaca5d8"
+            ]
+        ]
+    },
+    {
+        "id": "48553eecd690647c",
+        "type": "ui_template",
+        "z": "3688cff602168f40",
+        "group": "c8e4f7024208150b",
+        "name": "",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "format": "\n<div>Pierre-Paul says ping is: </div>\n<div ng-bind-html=\"msg.payload\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 900,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1666dfd9aaca5d8",
+        "type": "ping",
+        "z": "3688cff602168f40",
+        "protocol": "Automatic",
+        "mode": "triggered",
+        "name": "",
+        "host": "www.google.com",
+        "timer": "20",
+        "inputs": 1,
+        "x": 510,
+        "y": 820,
+        "wires": [
+            [
+                "48553eecd690647c",
+                "78ac30d48ca13bd8"
+            ]
+        ]
+    },
+    {
+        "id": "bb2c0e2bf23ad10a",
+        "type": "mqtt out",
+        "z": "3688cff602168f40",
+        "name": "bBoard1/light",
+        "topic": "bBoard1/payload",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "adb7cb62d1d6ed05",
+        "x": 1060,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "78ac30d48ca13bd8",
+        "type": "function",
+        "z": "3688cff602168f40",
+        "name": "",
+        "func": "if (msg.payload > 20) \n    {msg.light = \"red\";\n    msg.payload = 22}\nelse if (msg.payload > 15)\n    {msg.light = \"blue\"\n    msg.payload = 11}\nelse\n    {msg.light = \"green\"\n    msg.payload = 1}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 720,
+        "wires": [
+            [
+                "bb2c0e2bf23ad10a",
+                "556151dc72b6f220",
+                "5541c936082a2d64"
+            ]
+        ]
+    },
+    {
+        "id": "556151dc72b6f220",
+        "type": "debug",
+        "z": "3688cff602168f40",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "5541c936082a2d64",
+        "type": "ui_ui-light",
+        "z": "3688cff602168f40",
+        "action": "Set",
+        "actionType": "str",
+        "write": "light",
+        "writeType": "msg",
+        "name": "Light",
+        "group": "98fbd633f60c6b90",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "x": 1030,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ef0a4f2dfdddde73",
+        "type": "mqtt in",
+        "z": "aeaca841a3978a1f",
+        "name": "monitorMbCpuTemp",
+        "topic": "smartcity1/temp",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 100,
+        "wires": [
+            [
+                "e5387a20a6d221e2",
+                "8c8af51df871476e"
+            ]
+        ]
+    },
+    {
+        "id": "57f576e57a11586a",
+        "type": "mysql",
+        "z": "aeaca841a3978a1f",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 700,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5387a20a6d221e2",
+        "type": "function",
+        "z": "aeaca841a3978a1f",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `smartcity1`(`name`, `value`) VALUES ('temp',\"+msg.payload+\");\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 160,
+        "wires": [
+            [
+                "57f576e57a11586a"
+            ]
+        ]
+    },
+    {
+        "id": "8c8af51df871476e",
+        "type": "ui_gauge",
+        "z": "aeaca841a3978a1f",
+        "name": "Electrical Facility Server Temperature",
+        "group": "72d9881bb701ac45",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Electrical Facility Server Temperature",
+        "label": "Degres",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 580,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4be3344a05f24699",
+        "type": "ping",
+        "z": "aeaca841a3978a1f",
+        "protocol": "Automatic",
+        "mode": "triggered",
+        "name": "",
+        "host": "www.google.ca",
+        "timer": "20",
+        "inputs": 1,
+        "x": 500,
+        "y": 360,
+        "wires": [
+            [
+                "2df1a89d82520bbc"
+            ]
+        ]
+    },
+    {
+        "id": "2a9b51cfa4d3af79",
+        "type": "ui_button",
+        "z": "aeaca841a3978a1f",
+        "name": "",
+        "group": "9dc4b090ed3e1a61",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Ping the Facility",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 360,
+        "wires": [
+            [
+                "4be3344a05f24699"
+            ]
+        ]
+    },
+    {
+        "id": "2df1a89d82520bbc",
+        "type": "ui_gauge",
+        "z": "aeaca841a3978a1f",
+        "name": "",
+        "group": "9dc4b090ed3e1a61",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 710,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "b08ca3c443e38920",
+        "type": "mqtt in",
+        "z": "aeaca841a3978a1f",
+        "name": "monitorHouseLight",
+        "topic": "smartcity1/light",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 560,
+        "wires": [
+            [
+                "20cfcafdcf9954b2"
+            ]
+        ]
+    },
+    {
+        "id": "7a0c11b0dce244f0",
+        "type": "mysql",
+        "z": "aeaca841a3978a1f",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 720,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "20cfcafdcf9954b2",
+        "type": "function",
+        "z": "aeaca841a3978a1f",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `smartcity1`(`name`, `value`) VALUES ('light',\"+msg.payload+\");\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 560,
+        "wires": [
+            [
+                "7a0c11b0dce244f0",
+                "d69a1c674f8ce5f5"
+            ]
+        ]
+    },
+    {
+        "id": "395deba375d32b6e",
+        "type": "mqtt out",
+        "z": "aeaca841a3978a1f",
+        "name": "",
+        "topic": "smartcity1/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "adb7cb62d1d6ed05",
+        "x": 540,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "fe58ed034cf2388c",
+        "type": "ui_switch",
+        "z": "aeaca841a3978a1f",
+        "name": "",
+        "label": "ON/OFF",
+        "tooltip": "",
+        "group": "5fcb0776.c461c8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "light",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "num",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "0",
+        "offvalueType": "num",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 260,
+        "y": 760,
+        "wires": [
+            [
+                "395deba375d32b6e"
+            ]
+        ]
+    },
+    {
+        "id": "d69a1c674f8ce5f5",
+        "type": "change",
+        "z": "aeaca841a3978a1f",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "light",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 930,
+        "y": 680,
+        "wires": [
+            [
+                "fe58ed034cf2388c"
+            ]
+        ]
+    },
+    {
+        "id": "ed17622e8a4ef0c8",
+        "type": "mqtt in",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "topic": "bBoard1/temp",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "da69b3b12c33f247",
+                "d4ad835fac94ad22"
+            ]
+        ]
+    },
+    {
+        "id": "bfa0c06be0163dea",
+        "type": "mysql",
+        "z": "346d8fb50e1fbf61",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 560,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da69b3b12c33f247",
+        "type": "function",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard1`(`name`, `value`) VALUES ('temp',\"+msg.payload+\");\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "bfa0c06be0163dea"
+            ]
+        ]
+    },
+    {
+        "id": "a69892f636f7e5fe",
+        "type": "mqtt in",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "topic": "bBoard1/light",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 190,
+        "y": 260,
+        "wires": [
+            [
+                "7bfa942149c59f24"
+            ]
+        ]
+    },
+    {
+        "id": "bb405d47799f45ee",
+        "type": "mysql",
+        "z": "346d8fb50e1fbf61",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 560,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7bfa942149c59f24",
+        "type": "function",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard1`(`name`, `value`) VALUES ('light',\"+msg.payload+\");\"\nif (msg.payload == 22) \n    {msg.light = \"red\"}\nelse if (msg.payload == 11)\n    {msg.light = \"blue\"}\nelse\n    {msg.light = \"green\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 260,
+        "wires": [
+            [
+                "bb405d47799f45ee",
+                "4370bfc837eeb714"
+            ]
+        ]
+    },
+    {
+        "id": "f13d08141e99ce4e",
+        "type": "mqtt in",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "topic": "bBoard1/alarm",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 340,
+        "wires": [
+            [
+                "31ad2f5e2816d3fd"
+            ]
+        ]
+    },
+    {
+        "id": "11503e4379371441",
+        "type": "mysql",
+        "z": "346d8fb50e1fbf61",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 560,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31ad2f5e2816d3fd",
+        "type": "function",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard1`(`name`, `value`) VALUES ('alarm',\"+msg.payload+\");\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 340,
+        "wires": [
+            [
+                "11503e4379371441"
+            ]
+        ]
+    },
+    {
+        "id": "d4ad835fac94ad22",
+        "type": "ui_gauge",
+        "z": "346d8fb50e1fbf61",
+        "name": "b.Board Temp",
+        "group": "cc942a5b514c0125",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "b.Board Temp",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "40",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 440,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "c69e1df7b8dfe2dd",
+        "type": "change",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 460,
+        "wires": [
+            [
+                "af99f4d14559f2a3"
+            ]
+        ]
+    },
+    {
+        "id": "abe0798187ba2862",
+        "type": "mysql",
+        "z": "346d8fb50e1fbf61",
+        "mydb": "4267eadec6db36f9",
+        "name": "bBoard",
+        "x": 560,
+        "y": 460,
+        "wires": [
+            [
+                "c69e1df7b8dfe2dd"
+            ]
+        ],
+        "info": "SELECT value FROM `sensors` WHERE name=\"temp\" ORDER BY ID DESC LIMIT 1"
+    },
+    {
+        "id": "7068faa8a11ede23",
+        "type": "function",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "func": "msg.topic = \"SELECT value FROM `bBoard1` WHERE `name`='light' ORDER BY ID ASC LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 460,
+        "wires": [
+            [
+                "abe0798187ba2862"
+            ]
+        ]
+    },
+    {
+        "id": "4370bfc837eeb714",
+        "type": "ui_ui-light",
+        "z": "346d8fb50e1fbf61",
+        "action": "Set",
+        "actionType": "str",
+        "write": "light",
+        "writeType": "msg",
+        "name": "Light",
+        "group": "ff45f845ed0e64c4",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "x": 710,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7ee5bf44d5874bc",
+        "type": "ui_button",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "group": "04b1683a581a6861",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Green",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 560,
+        "wires": [
+            [
+                "cabb6ae46844e31b"
+            ]
+        ]
+    },
+    {
+        "id": "cabb6ae46844e31b",
+        "type": "mqtt out",
+        "z": "346d8fb50e1fbf61",
+        "name": "bBoard1/light",
+        "topic": "bBoard1/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "adb7cb62d1d6ed05",
+        "x": 540,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "71589e378eee0dab",
+        "type": "ui_button",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "group": "04b1683a581a6861",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Red",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "22",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 620,
+        "wires": [
+            [
+                "cabb6ae46844e31b"
+            ]
+        ]
+    },
+    {
+        "id": "b7c3438a83376d66",
+        "type": "ui_button",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "group": "04b1683a581a6861",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Blue",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "11",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 220,
+        "y": 680,
+        "wires": [
+            [
+                "cabb6ae46844e31b"
+            ]
+        ]
+    },
+    {
+        "id": "fc7db1ff2d4829cc",
+        "type": "inject",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 460,
+        "wires": [
+            [
+                "7068faa8a11ede23"
+            ]
+        ]
+    },
+    {
+        "id": "af99f4d14559f2a3",
+        "type": "ui_chart",
+        "z": "346d8fb50e1fbf61",
+        "name": "",
+        "group": "453c50efb350382f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "15",
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "10401c21da427db3",
+        "type": "mqtt in",
+        "z": "065051325d4230dc",
+        "name": "",
+        "topic": "bBoard3/temp",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 120,
+        "wires": [
+            [
+                "84dc5123640f2221",
+                "9cfad97c6ca2db1a"
+            ]
+        ]
+    },
+    {
+        "id": "c31f87f649ad2e7e",
+        "type": "mysql",
+        "z": "065051325d4230dc",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 620,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "84dc5123640f2221",
+        "type": "function",
+        "z": "065051325d4230dc",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard3`(`name`, `value`) VALUES ('temp',\"+msg.payload+\");\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 120,
+        "wires": [
+            [
+                "c31f87f649ad2e7e"
+            ]
+        ]
+    },
+    {
+        "id": "d4589c8e282ec980",
+        "type": "mqtt in",
+        "z": "065051325d4230dc",
+        "name": "",
+        "topic": "bBoard3/light",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 200,
+        "wires": [
+            [
+                "59bbbd867d499b41"
+            ]
+        ]
+    },
+    {
+        "id": "6f0868229ea1c3ad",
+        "type": "mysql",
+        "z": "065051325d4230dc",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 620,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59bbbd867d499b41",
+        "type": "function",
+        "z": "065051325d4230dc",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard3`(`name`, `value`) VALUES ('light',\"+msg.payload+\");\"\nif (msg.payload == 22) \n    {msg.light = \"red\"}\nelse if (msg.payload == 11)\n    {msg.light = \"blue\"}\nelse\n    {msg.light = \"green\"}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "6f0868229ea1c3ad",
+                "b4fa1710c946ed33"
+            ]
+        ]
+    },
+    {
+        "id": "1849c1ebbd6df596",
+        "type": "mqtt in",
+        "z": "065051325d4230dc",
+        "name": "",
+        "topic": "bBoard3/alarm",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "adb7cb62d1d6ed05",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 260,
+        "y": 280,
+        "wires": [
+            [
+                "630c2bc46908743a"
+            ]
+        ]
+    },
+    {
+        "id": "039d9377eb53e687",
+        "type": "mysql",
+        "z": "065051325d4230dc",
+        "mydb": "4267eadec6db36f9",
+        "name": "",
+        "x": 620,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "630c2bc46908743a",
+        "type": "function",
+        "z": "065051325d4230dc",
+        "name": "",
+        "func": "msg.topic = \"INSERT INTO `bBoard3`(`name`, `value`) VALUES ('alarm',\"+msg.payload+\");\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "039d9377eb53e687"
+            ]
+        ]
+    },
+    {
+        "id": "9cfad97c6ca2db1a",
+        "type": "ui_gauge",
+        "z": "065051325d4230dc",
+        "name": "b.Board Temp",
+        "group": "da63b1ff5df4e38b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "b.Board Temp",
+        "label": "units",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "40",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 500,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "7417ec224f3d4e32",
+        "type": "change",
+        "z": "065051325d4230dc",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 400,
+        "wires": [
+            [
+                "fca32713c76c33a2"
+            ]
+        ]
+    },
+    {
+        "id": "9d6a49b21c847de6",
+        "type": "mysql",
+        "z": "065051325d4230dc",
+        "mydb": "4267eadec6db36f9",
+        "name": "bBoard",
+        "x": 620,
+        "y": 400,
+        "wires": [
+            [
+                "7417ec224f3d4e32"
+            ]
+        ],
+        "info": "SELECT value FROM `sensors` WHERE name=\"temp\" ORDER BY ID DESC LIMIT 1"
+    },
+    {
+        "id": "3b60d6e418a82577",
+        "type": "function",
+        "z": "065051325d4230dc",
+        "name": "",
+        "func": "msg.topic = \"SELECT value FROM `bBoard1` WHERE `name`='light' ORDER BY ID ASC LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 400,
+        "wires": [
+            [
+                "9d6a49b21c847de6"
+            ]
+        ]
+    },
+    {
+        "id": "b4fa1710c946ed33",
+        "type": "ui_ui-light",
+        "z": "065051325d4230dc",
+        "action": "Set",
+        "actionType": "str",
+        "write": "light",
+        "writeType": "msg",
+        "name": "Light",
+        "group": "98fbd633f60c6b90",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "x": 770,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ff90cf226d9596c5",
+        "type": "ui_button",
+        "z": "065051325d4230dc",
+        "name": "",
+        "group": "2eae4923caa34c0f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Green",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 290,
+        "y": 500,
+        "wires": [
+            [
+                "59768b18e1c5f001"
+            ]
+        ]
+    },
+    {
+        "id": "59768b18e1c5f001",
+        "type": "mqtt out",
+        "z": "065051325d4230dc",
+        "name": "bBoard1/light",
+        "topic": "bBoard1/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "adb7cb62d1d6ed05",
+        "x": 600,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b658903a89eec2a0",
+        "type": "ui_button",
+        "z": "065051325d4230dc",
+        "name": "",
+        "group": "2eae4923caa34c0f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Red",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "22",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 560,
+        "wires": [
+            [
+                "59768b18e1c5f001"
+            ]
+        ]
+    },
+    {
+        "id": "0aa1590f999d4ee1",
+        "type": "ui_button",
+        "z": "065051325d4230dc",
+        "name": "",
+        "group": "2eae4923caa34c0f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Change to Blue",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "11",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 620,
+        "wires": [
+            [
+                "59768b18e1c5f001"
+            ]
+        ]
+    },
+    {
+        "id": "14a204facf02dd76",
+        "type": "inject",
+        "z": "065051325d4230dc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 400,
+        "wires": [
+            [
+                "3b60d6e418a82577"
+            ]
+        ]
+    },
+    {
+        "id": "fca32713c76c33a2",
+        "type": "ui_chart",
+        "z": "065051325d4230dc",
+        "name": "",
+        "group": "d582208e623b0b97",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "15",
+        "removeOlderPoints": "100",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 970,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd36436d.6c672",
+        "type": "ui_ui_control",
+        "z": "e1fde12c.9db918",
+        "name": "",
+        "events": "all",
+        "x": 420,
+        "y": 120,
+        "wires": [
+            [
+                "da61fcfa.21c308"
+            ]
+        ]
+    },
+    {
+        "id": "9d00ec54.1bcdf",
+        "type": "ui_button",
+        "z": "e1fde12c.9db918",
+        "name": "Admin1",
+        "group": "7f74a584.dea814",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Admin1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Admin_admin2\"],\"show\":[\"Admin_Control\",\"Admin_admin1\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 220,
+        "y": 60,
+        "wires": [
+            [
+                "cd36436d.6c672"
+            ]
+        ]
+    },
+    {
+        "id": "21235901.ddad66",
+        "type": "ui_chart",
+        "z": "e1fde12c.9db918",
+        "name": "",
+        "group": "fc657953.1b728",
+        "order": 5,
+        "width": 11,
+        "height": 1,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 250,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd60a5c0.2ecce",
+        "type": "ui_gauge",
+        "z": "e1fde12c.9db918",
+        "name": "",
+        "group": "fc657953.1b728",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 250,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "eb6bb9b4.b50a9",
+        "type": "ui_button",
+        "z": "e1fde12c.9db918",
+        "name": "Admin2",
+        "group": "cc942a5b514c0125",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Admin2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Admin_admin1\"],\"show\":[\"Admin_Control\",\"Admin_admin2\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 220,
+        "y": 120,
+        "wires": [
+            [
+                "cd36436d.6c672"
+            ]
+        ]
+    },
+    {
+        "id": "5d930a29.c0d1f4",
+        "type": "ui_dropdown",
+        "z": "e1fde12c.9db918",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "7f74a584.dea814",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 250,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a93bab8.36b096",
+        "type": "ui_date_picker",
+        "z": "e1fde12c.9db918",
+        "name": "",
+        "label": "date",
+        "group": "7f74a584.dea814",
+        "order": 8,
+        "width": "4",
+        "height": "1",
+        "passthru": true,
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 250,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b96eb4f0.2b926",
+        "type": "ui_button",
+        "z": "e1fde12c.9db918",
+        "name": "Reset",
+        "group": "7f74a584.dea814",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Reset",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "black",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[],\"show\":[\"Admin_Control\",\"Admin_admin2\",\"Admin_admin1\"]}}",
+        "payloadType": "json",
+        "topic": "",
+        "topicType": "str",
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "cd36436d.6c672"
+            ]
+        ]
+    },
+    {
+        "id": "f19c719f.97fac",
+        "type": "ui_button",
+        "z": "e1fde12c.9db918",
+        "name": "Admin",
+        "group": "f033628c.9c7ce",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Admin",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"tab\":\"Admin\"}",
+        "payloadType": "json",
+        "topic": "",
+        "x": 750,
+        "y": 100,
+        "wires": [
+            [
+                "a3c3662e.b51e58"
+            ]
+        ]
+    },
+    {
+        "id": "c7e8af31.5e0208",
+        "type": "ui_button",
+        "z": "e1fde12c.9db918",
+        "name": "Home",
+        "group": "f033628c.9c7ce",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Home",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"tab\":\"Home\"}",
+        "payloadType": "json",
+        "topic": "",
+        "x": 750,
+        "y": 160,
+        "wires": [
+            [
+                "a3c3662e.b51e58"
+            ]
+        ]
+    },
+    {
+        "id": "a3c3662e.b51e58",
+        "type": "ui_ui_control",
+        "z": "e1fde12c.9db918",
+        "name": "",
+        "events": "all",
+        "x": 922.86669921875,
+        "y": 132.75,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da61fcfa.21c308",
+        "type": "debug",
+        "z": "e1fde12c.9db918",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "030dbc92edd78630",
+        "type": "http in",
+        "z": "3cb1d655da0d0356",
+        "name": "bBoard2",
+        "url": "/bBoard2",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 180,
+        "wires": [
+            [
+                "93d923b2c0436b9c"
+            ]
+        ]
+    },
+    {
+        "id": "eb034f1a1e60e66f",
+        "type": "template",
+        "z": "3cb1d655da0d0356",
+        "name": "page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<head>\n<script>\nfunction myFunction() {\n  document.getElementById(\"demo\").innerHTML = \"Paragraph changed.\";\n}\n</script>\n</head>\n<body>\n<h2>Demo JavaScript in bBoard 2</h2>\n\n<p id=\"demo\">A Paragraph</p>\n<button type=\"button\" onclick=\"myFunction()\">Try it</button>\n<br>\n<br>\n<p>bBoard last value received was:  {{{payload}}}</p>\n\n\n<p style=\"font-size: 1.5em;\"><img src=\"https://cdn.thinglink.me/api/image/1475117514609393666/2560/2560/scaletowidth\" alt=\"bBoard\" width=\"336\" height=\"289\" /></p>\n\n\n<h2>HTML Images</h2>\n<p>HTML images are defined with the img tag:</p>\n\n<img src=\"w3schools.jpg\" alt=\"W3Schools.com\" width=\"104\" height=\"142\">\n\n\n</body>\n</html>",
+        "x": 870,
+        "y": 180,
+        "wires": [
+            [
+                "f3bac416a30ef171"
+            ]
+        ]
+    },
+    {
+        "id": "f3bac416a30ef171",
+        "type": "http response",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1030,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d79152763a7a67de",
+        "type": "http in",
+        "z": "3cb1d655da0d0356",
+        "name": "bBoard1",
+        "url": "/bBoard1",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 100,
+        "wires": [
+            [
+                "cc8b89e501497430"
+            ]
+        ]
+    },
+    {
+        "id": "d0587da77f7d8fa2",
+        "type": "http response",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1030,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "5b868fd42e1fcb78",
+        "type": "change",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 100,
+        "wires": [
+            [
+                "ebf784febb986bf4"
+            ]
+        ]
+    },
+    {
+        "id": "44f1052d143940dc",
+        "type": "mysql",
+        "z": "3cb1d655da0d0356",
+        "mydb": "4267eadec6db36f9",
+        "name": "db",
+        "x": 490,
+        "y": 100,
+        "wires": [
+            [
+                "5b868fd42e1fcb78"
+            ]
+        ],
+        "info": "SELECT value FROM `sensors` WHERE name=\"temp\" ORDER BY ID DESC LIMIT 1"
+    },
+    {
+        "id": "cc8b89e501497430",
+        "type": "function",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "func": "msg.topic = \"SELECT value FROM `bBoard1` WHERE `name`='light' ORDER BY ID ASC LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "44f1052d143940dc"
+            ]
+        ]
+    },
+    {
+        "id": "ebf784febb986bf4",
+        "type": "template",
+        "z": "3cb1d655da0d0356",
+        "name": "page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!-- #######  THIS IS A COMMENT - Visible only in the source editor #########-->\n<h2>Welcome To The bBoard 1</h2>\n\nlast value was:  {{{payload}}}\n\n<p style=\"font-size: 1.5em;\"><img src=\"https://cdn.thinglink.me/api/image/1475117514609393666/2560/2560/scaletowidth\" alt=\"bBoard\" width=\"336\" height=\"289\" /></p>\n<p style=\"font-size: 1.5em;\">You can <strong style=\"background-color: #317399; padding: 0 5px; color: #fff;\">type your text</strong> directly in the editor or paste it from a Word Doc, PDF, Excel etc.</p>\n<p style=\"font-size: 1.5em;\">The <strong>visual editor</strong> on the right and the <strong>source editor</strong> on the left are linked together and the changes are reflected in the other one as you type! <img src=\"https://html5-editor.net/images/smiley.png\" alt=\"smiley\" /></p>\n<table class=\"editorDemoTable\">\n<tbody>\n<tr>\n<td><strong>Name</strong></td>\n<td><strong>City</strong></td>\n<td><strong>Age</strong></td>\n</tr>\n<tr>\n<td>John</td>\n<td>Chicago</td>\n<td>23</td>\n</tr>\n<tr>\n<td>Lucy</td>\n<td>Wisconsin</td>\n<td>19</td>\n</tr>\n<tr>\n<td>Amanda</td>\n<td>Madison</td>\n<td>22</td>\n</tr>\n</tbody>\n</table>\n<p>This is a table you can experiment with.</p>",
+        "x": 870,
+        "y": 100,
+        "wires": [
+            [
+                "d0587da77f7d8fa2"
+            ]
+        ]
+    },
+    {
+        "id": "6bd67b493789bfce",
+        "type": "change",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 180,
+        "wires": [
+            [
+                "eb034f1a1e60e66f"
+            ]
+        ]
+    },
+    {
+        "id": "2f7b4863a337c751",
+        "type": "mysql",
+        "z": "3cb1d655da0d0356",
+        "mydb": "4267eadec6db36f9",
+        "name": "db",
+        "x": 490,
+        "y": 180,
+        "wires": [
+            [
+                "6bd67b493789bfce"
+            ]
+        ],
+        "info": "SELECT value FROM `sensors` WHERE name=\"temp\" ORDER BY ID DESC LIMIT 1"
+    },
+    {
+        "id": "93d923b2c0436b9c",
+        "type": "function",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "func": "msg.topic = \"SELECT value FROM `bBoard1` WHERE `name`='light' ORDER BY ID ASC LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 180,
+        "wires": [
+            [
+                "2f7b4863a337c751"
+            ]
+        ]
+    },
+    {
+        "id": "ecd86e54ae31af42",
+        "type": "http in",
+        "z": "3cb1d655da0d0356",
+        "name": "bBoard3",
+        "url": "/bBoard3",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            [
+                "d802c2bef182ea9f"
+            ]
+        ]
+    },
+    {
+        "id": "4adbb32c3e90b7a9",
+        "type": "template",
+        "z": "3cb1d655da0d0356",
+        "name": "page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<head>\n<style> \n.flex-container {\n  display: -webkit-flex;\n  display: flex;  \n  -webkit-flex-flow: row wrap;\n  flex-flow: row wrap;\n  font-weight: bold;\n  text-align: center;\n}\n\n.flex-container > * {\n  padding: 10px;\n  flex: 1 100%;\n}\n\n.main {\n  text-align: left;\n  background: cornflowerblue;\n}\n\n.header {background: coral;}\n.footer {background: lightgreen;}\n.aside1 {background: moccasin;}\n.aside2 {background: violet;}\n\n@media all and (min-width: 768px) {\n  .aside { flex: 1 auto; }\n  .main    { flex: 3 0px; }\n  .aside1 { order: 1; } \n  .main    { order: 2; }\n  .aside2 { order: 3; }\n  .footer  { order: 4; }\n}\n</style>\n</head>\n<body>\n\n<div class=\"flex-container\">\n  <header class=\"header\">\n      Header bBoard 3 TEST with Pierre Paul\n      <br>\n        last value was:  {{{payload}}}\n  </header>\n  <aside class=\"aside aside1\">\n      \n      <div onmousedown=\"WhichButton(event)\">Click this text with one of your mouse buttons to return a number.\n          <p>\n              0 = The left mouse button<br>\n              1 = The middle mouse button<br>\n              2 = The right mouse button\n          </p>\n        \n          <p><strong>Note:</strong> Internet Explorer 8, and earlier, returns another result:</p>\n        \n          <p>\n          1 = The left mouse button<br>\n          4 = The middle mouse button<br>\n          2 = The right mouse button\n          </p>\n        </div>\n        \n        <script>\n        function WhichButton(event) {\n          alert(\"You pressed button: \" + event.button)\n        }\n        </script>\n\n      \n      \n  </aside>\n\n  <article class=\"main\">\n    <h2>Demo JavaScript in bBoard 2</h2>\n    <p id=\"demo\">A Paragraph</p>\n    <button type=\"button\" onclick=\"myFunction()\">Try it</button>\n    <br>\n    <br>\n    <p>bBoard last value received was:  {{{payload}}}</p>\n    <p style=\"font-size: 1.5em;\"><img src=\"https://cdn.thinglink.me/api/image/1475117514609393666/2560/2560/scaletowidth\" alt=\"bBoard\" width=\"336\" height=\"289\" /></p>\n    <h2>HTML Images</h2>\n    <p>HTML images are defined with the img tag:</p>\n  </article>\n  <aside class=\"aside aside2\">Aside 2</aside>\n  <footer class=\"footer\">Footer Brilliant Labs</footer>\n</div>\n\n</body>\n</html>",
+        "x": 870,
+        "y": 260,
+        "wires": [
+            [
+                "8b08621ba2564c3f"
+            ]
+        ]
+    },
+    {
+        "id": "8b08621ba2564c3f",
+        "type": "http response",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1030,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e570bd0bb52dd1e8",
+        "type": "change",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 260,
+        "wires": [
+            [
+                "4adbb32c3e90b7a9"
+            ]
+        ]
+    },
+    {
+        "id": "a21f616ddb178fde",
+        "type": "mysql",
+        "z": "3cb1d655da0d0356",
+        "mydb": "4267eadec6db36f9",
+        "name": "db",
+        "x": 490,
+        "y": 260,
+        "wires": [
+            [
+                "e570bd0bb52dd1e8"
+            ]
+        ],
+        "info": "SELECT value FROM `sensors` WHERE name=\"temp\" ORDER BY ID DESC LIMIT 1"
+    },
+    {
+        "id": "d802c2bef182ea9f",
+        "type": "function",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "func": "msg.topic = \"SELECT value FROM `bBoard1` WHERE `name`='light' ORDER BY ID ASC LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 260,
+        "wires": [
+            [
+                "a21f616ddb178fde"
+            ]
+        ]
+    },
+    {
+        "id": "5a42930187fbf7e7",
+        "type": "http in",
+        "z": "3cb1d655da0d0356",
+        "name": "bBoard4",
+        "url": "/bBoard4",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 160,
+        "y": 340,
+        "wires": [
+            [
+                "a9adbf8ddc03f2a5"
+            ]
+        ]
+    },
+    {
+        "id": "347ae0cf5c24f18d",
+        "type": "template",
+        "z": "3cb1d655da0d0356",
+        "name": "page",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n<head>\n    bBoard 4\n\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<style>\nimg:hover {\n  animation: shake 0.5s;\n  animation-iteration-count: infinite;\n}\n\n@keyframes shake {\n  0% { transform: translate(1px, 1px) rotate(0deg); }\n  10% { transform: translate(-1px, -2px) rotate(-1deg); }\n  20% { transform: translate(-3px, 0px) rotate(1deg); }\n  30% { transform: translate(3px, 2px) rotate(0deg); }\n  40% { transform: translate(1px, -1px) rotate(1deg); }\n  50% { transform: translate(-1px, 2px) rotate(-1deg); }\n  60% { transform: translate(-3px, 1px) rotate(0deg); }\n  70% { transform: translate(3px, 1px) rotate(-1deg); }\n  80% { transform: translate(-1px, -1px) rotate(1deg); }\n  90% { transform: translate(1px, 2px) rotate(0deg); }\n  100% { transform: translate(1px, -2px) rotate(-1deg); }\n}\n\n</style>\n</head>\n<body>\n\n<p>Hover over the image:</p>\n<img src=\"https://cdn.thinglink.me/api/image/1475117514609393666/2560/2560/scaletowidth\" alt=\"Pineapple\" width=\"300\" height=\"300\">\n\n</body>\n</html>\n",
+        "x": 870,
+        "y": 340,
+        "wires": [
+            [
+                "56281d60dfc76677"
+            ]
+        ]
+    },
+    {
+        "id": "56281d60dfc76677",
+        "type": "http response",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1030,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "4715c3e226bf4784",
+        "type": "change",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 680,
+        "y": 340,
+        "wires": [
+            [
+                "347ae0cf5c24f18d"
+            ]
+        ]
+    },
+    {
+        "id": "2abdcf3753d71845",
+        "type": "mysql",
+        "z": "3cb1d655da0d0356",
+        "mydb": "4267eadec6db36f9",
+        "name": "db",
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "4715c3e226bf4784"
+            ]
+        ],
+        "info": "SELECT value FROM `sensors` WHERE name=\"temp\" ORDER BY ID DESC LIMIT 1"
+    },
+    {
+        "id": "a9adbf8ddc03f2a5",
+        "type": "function",
+        "z": "3cb1d655da0d0356",
+        "name": "",
+        "func": "msg.topic = \"SELECT value FROM `bBoard1` WHERE `name`='light' ORDER BY ID ASC LIMIT 1;\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 340,
+        "wires": [
+            [
+                "2abdcf3753d71845"
+            ]
+        ]
+    }
+]
